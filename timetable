@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class Time Table</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr class="header-info">
+            <th colspan="2">Branch: CSE</th>
+            <th colspan="3">Section: B2 [60]</th>
+            <th colspan="3">Room No. C-001</th>
+            <th colspan="3">W.E.F 25/08/2025</th>
+        </tr>
+        <tr class="header-info">
+            <th colspan="5">Class Facilitator: Mr. Ajai Maurya</th>
+            <th colspan="6">Mobile No. **</th>
+        </tr>
+        <tr>
+            <th>Day/Time</th>
+            <th>09.00-09:50 AM</th>
+            <th>09:50-10:40 AM</th>
+            <th>10:40-11:30 AM</th>
+            <th>11:30-12:20 AM</th>
+            <th>12:20-01:10 PM</th>
+            <th>01:10-02:00 PM</th>
+            <th>02:00-02:50 PM</th>
+            <th>02:50-03:40 PM</th>
+            <th>03:40-04:30 PM</th>
+        </tr>
+<tr>
+            <td>Mon</td>
+            <td class="lab">DAA Lab S[B2]-Lab-3</td>
+            <td>WT</td>
+            <td>DAA</td>
+            <td></td>
+            <td rowspan="5" colspan="1" class="lunch-break">LUNCH BREAK</td>
+            <td>DE-I</td>
+            <td>PSD</td>
+            <td>PSD</td>
+            <td>DBMS</td>
+        </tr>
+        <tr>
+            <td>Tue</td>
+            <td>WT</td>
+            <td>L.R</td>
+            <td>DBMS</td>
+            <td>DAA</td>
+            <td>DE-II</td>
+            <td>PSD</td>
+            <td>PSD</td>
+            <td>DBMS</td>
+        </tr>
+        <tr>
+            <td>Wed</td>
+            <td class="lab">DBMS Lab S[B2]-Lab-2</td>
+            <td>DAA LAB</td>
+            <td>ITCS</td>
+            <td>DAA</td>
+            <td>DE-I</td>
+            <td>Quants</td>
+            <td>DBMS</td>
+            <td>WT</td>
+        </tr>
+        <tr>
+            <td>Thu</td>
+            <td>DBMS</td>
+            <td>WT</td>
+            <td>ITCS</td>
+            <td>DAA</td>
+            <td>DE-II</td>
+            <td>PSD</td>
+            <td>PSD</td>
+            <td>VA</td>
+        </tr>
+        <tr>
+            <td>Fri</td>
+            <td>DBMS</td>
+            <td>WT</td>
+            <td>DE-II</td>
+            <td>DAA</td>
+            <td>DE-I</td>
+            <td>VA</td>
+            <td class="lab">WT Lab S[B2] Lab-7</td>
+            <td></td>
+        </tr>
+    </table>
+<br>
+    <h3>Saturday Time Table (Except 1st and 3rd)</h3>
+    <table>
+        <tr>
+            <th>Day/Time</th>
+            <th>09.00-10:00 AM<br>1" Period</th>
+            <th>10:00-11:00 AM<br>2 Period</th>
+            <th>11:00-12:00 AM<br>3d Period</th>
+            <th>12:00-01:00 PM<br>4 Period</th>
+            <th>01:00-02:00 PM<br>5th Period</th>
+            <th>02:00-03:00 PM<br>6 Period</th>
+            <th>03:00-04:00 PM<br>7 Period</th>
+        </tr>
+        <tr>
+            <td>Sat</td>
+            <td>DE-II</td>
+            <td class="library">Library</td>
+            <td>DAA</td>
+            <td class="lunch-break">LUNCH BREAK</td>
+            <td>WT</td>
+            <td>DBMS</td>
+            <td>DE-I</td>
+        </tr>
+    </table>
+
+</body>
+</html>
